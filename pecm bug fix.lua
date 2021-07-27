@@ -18,7 +18,6 @@ function PlayerInventory:sync_net_event(event_id, peer, ...)
 		--Host don't believe other's stop event.
 		-- 1. Network delay(ping) cause to stop pecm when a client who is in the room with other 2-3 players use 2 of pecm in short term(<0.1s) 
 		-- 2. Sometimes a client(not host) set that some other players pecm duration is zero. so, the client send another player's pecm stop event after start event immediately.
-		-- WHY ONLY PECM JAMMER IS WORKING ON P2P, NOT CLIENT-SERVER LIKE PECM FEEDBACK??????????
 		if not Network:is_server() then
 			self:_stop_jammer_effect()
 		end

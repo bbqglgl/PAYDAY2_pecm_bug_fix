@@ -2,13 +2,22 @@
 	"name": "pecm bug fix",
 	"description": "pecm bug fix",
 	"author": "BigMouse",
-	"version": "1.0",
-	"priority": 1,
+	"version": "1",
+	"priority": -100,
 	"blt_version": 2,
 	"hooks": [
 		{
 			"hook_id" : "lib/units/beings/player/playerinventory",
 			"script_path" : "pecm bug fix.lua"
 		}
-	]
+	],
+    "updates" : [
+        {
+            "identifier" : "pecmbugfixmod",
+            "host":
+            {
+                "meta": "https://www.dropbox.com/s/2kt0opmaa6867wz/meta.json?raw=1"
+            }
+        }
+    ]
 }
