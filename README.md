@@ -9,3 +9,8 @@
 
 #### Even though host has mod, Clients who are in host's room think as if PECM bug is.
 #### However, PECM is working well in host. So, PECM work well.
+
+### Change Log
+#### Version 2
+ - Change priority on BLT for avoid crash with other mods.
+ - Support automatic update on superBLT.
