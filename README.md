@@ -11,6 +11,8 @@
 #### However, PECM is working well in host. So, PECM work well.
 
 ### Change Log
+#### Version 3
+ - Fixed soundless pECM between modded host and modded client.
 #### Version 2
  - Change priority on BLT for avoid crash with other mods.
  - Support automatic update on superBLT.
