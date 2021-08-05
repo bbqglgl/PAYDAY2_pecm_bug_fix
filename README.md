@@ -16,3 +16,7 @@
 #### Version 2
  - Change priority on BLT for avoid crash with other mods.
  - Support automatic update on superBLT.
+
+
+ Uploaded on
+ https://modworkshop.net/mod/32373
